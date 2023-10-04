@@ -23,7 +23,7 @@ Technologies & Tools
 
 Database
 
-Here,we used Mysql DB MSQL DB Installation Steps for Linux ubuntu 14.04:
+Here,I used MARIADB Installation Steps for AMAZON Linux2 :
 
     $ sudo yum update
     $ sudo yum install mariadb -y
