@@ -1,0 +1,56 @@
+---
+
+##### Installing Tomcat 
+- name: Install Nginx
+  hosts: your_server
+  become: yes # Use "sudo" to become a superuser
+  tasks:
+  - name: redhat updates
+    yum:
+     name: "*"
+     state: latest
+    when: ansible_os_family == "RedHat"
+
+  - name: debian updates
+    apt:
+      name: "*"
+      state: latest
+    when: ansible_os_family == "Debian"
+
+
+  - name: Java Installation on RedHat
+    yum:
+      name: java-1.8.0-openjdk
+      state: present
+    when: ansible_os_family == "RedHat"
+
+
+  - name: Java Installation on Debian
+    apt:
+      name: openjdk-11-jdk
+      state: present
+    when: ansible_os_family == "Debian"
+
+  - name: download tomcat
+    get_url:
+      url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.tar.gz
+      dest: /opt
+      mode: 0777
+
+  - name: untar tomcat
+    unarchive:
+      src: /opt/apache-tomcat-9.0.72.tar.gz
+      dest: /opt
+      mode: 0777
+  
+  - name: shutdown
+    shell: shutdown.sh
+    args:
+      chdir: /opt/apache-tomcat-9.0.72/bin
+
+  - name: startup
+    shell: startup.sh
+    args:
+      chdir: /opt/apache-tomcat-9.0.72/bin   
+
+   
