@@ -1,5 +1,5 @@
 # AWS_DevOps_Project
-A littel glipmse about my Java Project
+A littel glipmse about my JAVA Project
 
 Prerequisites
 
