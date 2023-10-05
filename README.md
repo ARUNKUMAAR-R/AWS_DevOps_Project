@@ -21,9 +21,9 @@ Technologies & Tools
     JSP
     MySQL
 
-Database
 
-Here,I used MARIADB Installation Steps for AMAZON Linux2 :
+
+MARIADB Installation Steps for AMAZON Linux2 :
 
     $ sudo yum update
     $ sudo yum install mariadb -y
