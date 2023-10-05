@@ -1,6 +1,6 @@
 resource "aws_security_group" "bastion-sg" {
   name        = "bastion-sg"
-  description = "Security group for bastionisioner ec2 instance"
+  description = "Security group for bastion ec2 instance"
   vpc_id      = module.vpc.vpc_id
   egress {
     from_port   = 0
