@@ -1,4 +1,10 @@
 #!/bin/bash
+
+## Author : ARUNKUMAAR R
+## Description : Bash script to install SonarQube
+## Date : 15/02/24
+## Language : SHELL SCRIPT
+
 cp /etc/sysctl.conf /root/sysctl.conf_backup
 cat <<EOT> /etc/sysctl.conf
 vm.max_map_count=262144

@@ -3,23 +3,23 @@ A little glipmse about my JAVA Build Project
 
 Prerequisites
 
-    JDK 8 or later
-    Maven 3 or later
-    MySQL 5.6 or later
+    * JDK 8 or later
+    * Maven 3 or later
+    * MySQL 5.6 or later
 
 Technologies & Tools
 
-    Git
-    Jenkins
-    Maven
-    SonarQube
-    Nexus
-    Spring MVC
-    Spring Security
-    Spring Data JPA
-    Slack
-    JSP
-    MySQL
+    * Git
+    * Jenkins
+    * Maven
+    * SonarQube
+    * Nexus
+    * Spring MVC
+    * Spring Security
+    * Spring Data JPA
+    * Slack
+    * JSP
+    * MySQL
 
 
 

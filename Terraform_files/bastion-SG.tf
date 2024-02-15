@@ -1,3 +1,8 @@
+## Author : ARUNKUMAAR R
+## Description : Creating SG for Bastion Host in AWS
+## Date : 15/02/24
+## Language : HCL
+
 resource "aws_security_group" "bastion-sg" {
   name        = "bastion-sg"
   description = "Security group for bastion ec2 instance"

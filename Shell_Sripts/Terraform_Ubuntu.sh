@@ -1,4 +1,10 @@
 #!/bin/bash
+
+## Author : ARUNKUMAAR R
+## Description : Bash script to install Terraform
+## Date : 15/02/24
+## Language : SHELL SCRIPT
+
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common -y
 wget -O- https://apt.releases.hashicorp.com/gpg | \
 gpg --dearmor | \

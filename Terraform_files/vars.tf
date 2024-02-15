@@ -1,3 +1,8 @@
+## Author : ARUNKUMAAR R
+## Description : variable file
+## Date : 15/02/24
+## Language : HCL
+
 variable "REGION" {
   default = "us-west-2"
 }

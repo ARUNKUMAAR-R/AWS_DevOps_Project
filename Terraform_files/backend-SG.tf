@@ -1,3 +1,9 @@
+## Author : ARUNKUMAAR R
+## Description : Creating SG for Backend services
+## Date : 15/02/24
+## Language : HCL
+
+
 resource "aws_security_group" "backend-sg" {
   name        = "backend-sg"
   description = "Security group for RDS, active mq, elastic cache"

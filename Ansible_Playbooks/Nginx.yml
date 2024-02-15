@@ -1,4 +1,10 @@
 ---
+
+## Author : ARUNKUMAAR R
+## Description : Playbook to install and run Nginx
+## Date : 15/02/24
+## Language : YAML
+
 - name: Install Nginx
   hosts: all
   become: true

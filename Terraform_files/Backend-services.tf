@@ -1,3 +1,10 @@
+## Author : ARUNKUMAAR R
+## Description : Creating Backend Services in AWS
+## Date : 15/02/24
+## Language : HCL
+
+
+
 resource "aws_db_subnet_group" "db-sub" {
   name       = "db-sub"
   subnet_ids = [module.vpc.private_subnets[0], module.vpc.private_subnets[1]]

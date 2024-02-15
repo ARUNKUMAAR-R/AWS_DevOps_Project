@@ -1,3 +1,8 @@
+## Author : ARUNKUMAAR R
+## Description : Creating SG for Tomcat Server 
+## Date : 15/02/24
+## Language : HCL
+
 resource "aws_security_group" "tomcat-sg" {
   name        = "tomcat-sg"
   description = "Security group for tomcat instances"

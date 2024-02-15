@@ -1,4 +1,10 @@
 #!/bin/bash
+
+## Author : ARUNKUMAAR R
+## Description : Bash script to install Nexus
+## Date : 15/02/24
+## Language : SHELL SCRIPT
+
 yum install java-1.8.0-openjdk.x86_64 wget -y   
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
